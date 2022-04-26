@@ -14,7 +14,7 @@ app.use(cors(corsConfig))
 app.options('*',cors(corsConfig))
 
 //middleware
-app.use(cors())
+// app.use(cors())
 app.use(express.json())
 
 function verifyJwt(req,res,next){
