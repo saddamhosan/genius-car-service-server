@@ -103,7 +103,7 @@ async function run() {
 }
 run().catch(console.dir);
 app.get('/',(req,res)=>{
-  res.send('welcome to genius car server ')
+  res.send('welcome to genius car server good')
 })
 
 app.listen(port,()=>{
